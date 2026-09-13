@@ -170,7 +170,6 @@ library(tidyterra)
 
 ggplot() +
   geom_spatraster_rgb(data = bu)
-#> ! `data` has 4 layers. Selecting layers 1, 2, and 3.
 
 
 # parcels
@@ -182,7 +181,6 @@ parc <- catrnav_wms_get_layer(
 
 ggplot() +
   geom_spatraster_rgb(data = parc)
-#> ! `data` has 4 layers. Selecting layers 1, 2, and 3.
 
 # }
 ```
